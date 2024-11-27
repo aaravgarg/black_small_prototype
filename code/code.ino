@@ -32,12 +32,21 @@ delay(1000);
 
 void loop(){
 
-  // left_knee.write(50);
-  // left_hip_roll.write(120); 
-  // delay(50);
-  // right_hip_pitch.write(20);
-  // right_knee.write(50);
-  // delay(2);
+  left_knee.write(50);
+  left_hip_roll.write(100); 
+  delay(50);
+  right_hip_pitch.write(20);
+  right_knee.write(50);
+  delay(2);
+
+  delay(3000);
+
+  right_knee.write(90);
+  left_hip_pitch.write(140);
+  left_knee.write(90);
+  right_hip_pitch.write(70);
+
+  delay(3000);
 
 }
 
